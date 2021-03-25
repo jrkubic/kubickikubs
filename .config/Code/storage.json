@@ -56,8 +56,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -718,8 +717,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1603,8 +1601,8 @@
             "backupPath": "/home/jake/.config/Code/Backups/4219595ec4269a2a563e70667dd84fb1",
             "uiState": {
                 "mode": 1,
-                "x": 250,
-                "y": 150,
+                "x": 81,
+                "y": 111,
                 "width": 1024,
                 "height": 768
             }
