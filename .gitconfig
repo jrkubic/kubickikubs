@@ -1,0 +1,7 @@
+[user]
+	name = jrkubic
+	email = jrkubic@bgsu.edu
+[init]
+	defaultBranch = main
+[color]
+	ui = auto

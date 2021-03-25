@@ -1,0 +1,379 @@
+Looking for git in: git
+Using git 2.29.2 from git
+> git rev-parse --git-dir
+Open repository: /home/jake/kubickikubs
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :css.css
+> git ls-files --stage -- /home/jake/kubickikubs/css.css
+> git cat-file -s b4cb135accd0f93a222391416921ada9e99c335e
+> git show --textconv :index.html
+> git ls-files --stage -- /home/jake/kubickikubs/index.html
+> git cat-file -s b0d5ad38d65ca3d23a5b07aedebfcb9d35250806
+> git show --textconv :css.css
+> git ls-files --stage -- /home/jake/kubickikubs/css.css
+> git cat-file -s b4cb135accd0f93a222391416921ada9e99c335e
+> git show --textconv :LICENSE
+> git ls-files --stage -- /home/jake/kubickikubs/LICENSE
+> git cat-file -s 3cbd7ab502704895250bc0a90e208ffeb2d5e341
+> git show --textconv :README.md
+> git ls-files --stage -- /home/jake/kubickikubs/README.md
+> git cat-file -s b2c2289e2b66835cd80c62521520ac95dcf86f7f
+> git show --textconv :css.css
+> git ls-files --stage -- /home/jake/kubickikubs/css.css
+> git cat-file -s b4cb135accd0f93a222391416921ada9e99c335e
+> git show --textconv :css.css
+> git ls-files --stage -- /home/jake/kubickikubs/css.css
+> git cat-file -s b4cb135accd0f93a222391416921ada9e99c335e
+> git show --textconv :index.html
+> git ls-files --stage -- /home/jake/kubickikubs/index.html
+> git cat-file -s b0d5ad38d65ca3d23a5b07aedebfcb9d35250806
+> git show --textconv :index.html
+> git ls-files --stage -- /home/jake/kubickikubs/index.html
+> git cat-file -s b0d5ad38d65ca3d23a5b07aedebfcb9d35250806
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :index.html
+> git ls-files --stage -- /home/jake/kubickikubs/index.html
+> git cat-file -s b0d5ad38d65ca3d23a5b07aedebfcb9d35250806
+> git show --textconv :html/index.html
+> git ls-files --stage -- /home/jake/kubickikubs/html/index.html
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :css/main.css
+> git ls-files --stage -- /home/jake/kubickikubs/css/main.css
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :html/index.html
+> git ls-files --stage -- /home/jake/kubickikubs/html/index.html
+> git show --textconv :html/index.html
+> git ls-files --stage -- /home/jake/kubickikubs/html/index.html
+> git show --textconv :html/index.html
+> git ls-files --stage -- /home/jake/kubickikubs/html/index.html
+> git show --textconv :css/main.css
+> git ls-files --stage -- /home/jake/kubickikubs/css/main.css
+> git show --textconv :css/main.css
+> git ls-files --stage -- /home/jake/kubickikubs/css/main.css
+> git show --textconv :html/index.html
+> git ls-files --stage -- /home/jake/kubickikubs/html/index.html
+> git show --textconv :css/main.css
+> git ls-files --stage -- /home/jake/kubickikubs/css/main.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :css/main.css
+> git ls-files --stage -- /home/jake/kubickikubs/css/main.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :html/index.html
+> git ls-files --stage -- /home/jake/kubickikubs/html/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :html/index.html
+> git ls-files --stage -- /home/jake/kubickikubs/html/index.html
+> git show --textconv :LICENSE
+> git ls-files --stage -- /home/jake/kubickikubs/LICENSE
+> git cat-file -s 3cbd7ab502704895250bc0a90e208ffeb2d5e341
+> git show --textconv :html/index.html
+> git ls-files --stage -- /home/jake/kubickikubs/html/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :css/main.css
+> git ls-files --stage -- /home/jake/kubickikubs/css/main.css
+> git show --textconv :html/index.html
+> git ls-files --stage -- /home/jake/kubickikubs/html/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/jake/kubickikubs/html/index.html
+> git show --textconv :css/main.css
+> git ls-files --stage -- /home/jake/kubickikubs/css/main.css
+> git show --textconv :css/main.css
+> git ls-files --stage -- /home/jake/kubickikubs/css/main.css
+> git show --textconv :html/index.html
+> git ls-files --stage -- /home/jake/kubickikubs/html/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :LICENSE
+> git ls-files --stage -- /home/jake/kubickikubs/LICENSE
+> git cat-file -s 3cbd7ab502704895250bc0a90e208ffeb2d5e341
+> git show --textconv :html/index.html
+> git ls-files --stage -- /home/jake/kubickikubs/html/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :css/main.css
+> git ls-files --stage -- /home/jake/kubickikubs/css/main.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :css/main.css
+> git ls-files --stage -- /home/jake/kubickikubs/css/main.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :css/main.css
+> git ls-files --stage -- /home/jake/kubickikubs/css/main.css
+> git show --textconv :css/main.css
+> git ls-files --stage -- /home/jake/kubickikubs/css/main.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :css/main.css
+> git ls-files --stage -- /home/jake/kubickikubs/css/main.css
+> git show --textconv :css/main.css
+> git ls-files --stage -- /home/jake/kubickikubs/css/main.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :css/main.css
+> git ls-files --stage -- /home/jake/kubickikubs/css/main.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :css/main.css
+> git ls-files --stage -- /home/jake/kubickikubs/css/main.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :css/main.css
+> git ls-files --stage -- /home/jake/kubickikubs/css/main.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :css/main.css
+> git ls-files --stage -- /home/jake/kubickikubs/css/main.css
+> git show --textconv :css/main.css
+> git ls-files --stage -- /home/jake/kubickikubs/css/main.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :css/main.css
+> git ls-files --stage -- /home/jake/kubickikubs/css/main.css
+> git show --textconv :css/main.css
+> git ls-files --stage -- /home/jake/kubickikubs/css/main.css
+> git show --textconv :css/main.css
+> git ls-files --stage -- /home/jake/kubickikubs/css/main.css

@@ -1,0 +1,7 @@
+[2021-03-25 14:31:06.946] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/jake/Desktop/images/pic02.jpg'
+[2021-03-25 14:31:06.946] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/jake/Desktop/images/pic02.jpg'
+[2021-03-25 14:31:08.011] [renderer1] [error] Unable to resolve non-existing file '/home/jake/Desktop/images/pic02.jpg': EntryNotFound (FileSystemError): Unable to resolve non-existing file '/home/jake/Desktop/images/pic02.jpg'
+	at _handleError (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:745:473)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2021-03-25 14:43:50.675] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/jake/Desktop/Site/.vscode'

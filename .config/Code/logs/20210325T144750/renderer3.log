@@ -1,0 +1,5 @@
+[2021-03-25 15:49:20.591] [renderer3] [error] Error: [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-03-25 15:49:20.597] [renderer3] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-03-25 15:58:31.123] [renderer3] [error] Unable to resolve non-existing file '/home/jake/Desktop/images/pic03.jpg': EntryNotFound (FileSystemError): Unable to resolve non-existing file '/home/jake/Desktop/images/pic03.jpg'
+	at _handleError (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:745:473)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
