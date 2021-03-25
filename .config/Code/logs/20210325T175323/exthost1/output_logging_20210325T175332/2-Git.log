@@ -41,3 +41,21 @@ fatal: no upstream configured for branch 'main'
 > git check-ignore -v -z --stdin
 > git show --textconv :kubickikubs/html/index.html
 > git ls-files --stage -- /home/jake/kubickikubs/html/index.html
+> git status -z -u
+> git ls-files --stage -- /home/jake/kubickikubs/html/index.html
+> git show --textconv :kubickikubs/html/index.html
+> git symbolic-ref --short HEAD
+> git rev-parse newBranch
+> git rev-parse --symbolic-full-name newBranch@{u}
+fatal: no upstream configured for branch 'newBranch'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse newBranch
+> git rev-parse --symbolic-full-name newBranch@{u}
+fatal: no upstream configured for branch 'newBranch'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

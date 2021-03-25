@@ -42,7 +42,7 @@ user_pref("browser.laterrun.bookkeeping.profileCreationTime", 1607797010);
 user_pref("browser.laterrun.bookkeeping.sessionCount", 6);
 user_pref("browser.migration.version", 104);
 user_pref("browser.newtabpage.activity-stream.discoverystream.rec.impressions", "{\"88370\":1616696357212,\"88375\":1616696357218,\"88380\":1616709101317,\"88384\":1616709101329,\"88388\":1616709157788,\"88392\":1616709157771,\"22843399\":1616709157785}");
-user_pref("browser.newtabpage.activity-stream.discoverystream.spoc.impressions", "{\"15210963\":[1616709101321],\"15211410\":[1616709157777]}");
+user_pref("browser.newtabpage.activity-stream.discoverystream.spoc.impressions", "{\"15210963\":[1616709101321],\"15211410\":[1616709157777,1616709459123]}");
 user_pref("browser.newtabpage.activity-stream.impressionId", "{2c70e8bc-f139-48cc-90e9-012266f13a43}");
 user_pref("browser.newtabpage.pinned", "[]");
 user_pref("browser.newtabpage.storageVersion", 1);

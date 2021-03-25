@@ -56,7 +56,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -238,7 +239,8 @@
                     },
                     {
                         "id": "workbench.action.files.saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -716,7 +718,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1600,9 +1603,9 @@
             "backupPath": "/home/jake/.config/Code/Backups/4219595ec4269a2a563e70667dd84fb1",
             "uiState": {
                 "mode": 1,
-                "x": 205,
-                "y": 90,
-                "width": 1039,
+                "x": 250,
+                "y": 150,
+                "width": 1024,
                 "height": 768
             }
         },
