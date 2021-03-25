@@ -1,0 +1,5 @@
+[2021-03-25 17:53:36.546] [renderer1] [error] Git error
+[2021-03-25 17:53:38.531] [renderer1] [error] Error: [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-03-25 17:53:38.534] [renderer1] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-03-25 17:55:15.398] [renderer1] [error] Git error
+[2021-03-25 17:55:44.762] [renderer1] [error] Git error

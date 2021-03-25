@@ -1,6 +1,0 @@
-[2020-12-21 16:04:02.597] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/jake/repotest1/helloworld.txt'
-[2020-12-21 16:04:02.598] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/jake/repotest1/helloworld.txt'
-[2020-12-21 16:04:06.299] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/jake/repotest1/helloworld.txt'
-[2020-12-21 16:04:06.299] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/jake/repotest1/helloworld.txt'
-[2020-12-21 16:04:21.455] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/jake/repotest1/helloworld.txt'
-[2020-12-21 16:04:21.456] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/jake/repotest1/helloworld.txt'

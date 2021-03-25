@@ -46,6 +46,7 @@
         <value type="string" value="network"/>
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="blueman-applet"/>
+        <value type="string" value="notes"/>
       </property>
     </property>
     <property name="plugin-5" type="string" value="notification-plugin"/>

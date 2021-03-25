@@ -1,0 +1,43 @@
+Looking for git in: git
+Using git 2.29.2 from git
+> git rev-parse --git-dir
+Open repository: /home/jake
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+fatal: no upstream configured for branch 'main'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Desktop/index.html
+> git ls-files --stage -- /home/jake/Desktop/index.html
+> git cat-file -s 65ba33897daf89ba695ae853a5a548094d619f6b
+> git show --textconv :kubickikubs/css/main.css
+> git ls-files --stage -- /home/jake/kubickikubs/css/main.css
+> git show --textconv :Desktop/index.html
+> git ls-files --stage -- /home/jake/Desktop/index.html
+> git cat-file -s 65ba33897daf89ba695ae853a5a548094d619f6b
+> git show --textconv :kubickikubs/css/main.css
+> git ls-files --stage -- /home/jake/kubickikubs/css/main.css
+> git show --textconv :Desktop/index.html
+> git ls-files --stage -- /home/jake/Desktop/index.html
+> git cat-file -s 65ba33897daf89ba695ae853a5a548094d619f6b
+> git show --textconv :kubickikubs/html/index.html
+> git ls-files --stage -- /home/jake/kubickikubs/html/index.html
+> git show --textconv :Desktop/index.html
+> git ls-files --stage -- /home/jake/Desktop/index.html
+> git cat-file -s 65ba33897daf89ba695ae853a5a548094d619f6b
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :kubickikubs/html/index
+> git ls-files --stage -- /home/jake/kubickikubs/html/index
+> git check-ignore -v -z --stdin
+> git show --textconv :kubickikubs/html/index.html
+> git ls-files --stage -- /home/jake/kubickikubs/html/index.html
+> git show --textconv :kubickikubs/css/css.css
+> git ls-files --stage -- /home/jake/kubickikubs/css/css.css
+> git check-ignore -v -z --stdin
+> git show --textconv :kubickikubs/html/index.html
+> git ls-files --stage -- /home/jake/kubickikubs/html/index.html

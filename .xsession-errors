@@ -33,194 +33,39 @@ dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu
 dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
 
-(xfce4-session:1097): xfce4-session-WARNING **: 14:17:41.784: xfsm_manager_load_session: Something wrong with /home/jake/.cache/sessions/xfce4-session-jake-VirtualBox:0, Does it exist? Permissions issue?
+(xfce4-session:1094): xfce4-session-WARNING **: 17:50:45.760: xfsm_manager_load_session: Something wrong with /home/jake/.cache/sessions/xfce4-session-jake-VirtualBox:0, Does it exist? Permissions issue?
 
-(xfsettingsd:1123): xfsettingsd-WARNING **: 14:17:43.525: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+(xfsettingsd:1114): xfsettingsd-WARNING **: 17:50:47.320: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
 
-(wrapper-2.0:1223): GLib-GIO-CRITICAL **: 14:17:45.330: g_file_new_for_path: assertion 'path != NULL' failed
+(polkit-gnome-authentication-agent-1:1149): GLib-CRITICAL **: 17:50:47.817: g_variant_new_string: assertion 'string != NULL' failed
 
-(wrapper-2.0:1223): GLib-GIO-CRITICAL **: 14:17:45.343: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+(polkit-gnome-authentication-agent-1:1149): polkit-gnome-1-WARNING **: 17:50:47.825: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
 
-(wrapper-2.0:1223): GLib-GObject-WARNING **: 14:17:45.343: invalid (NULL) pointer instance
+(wrapper-2.0:1226): GLib-GIO-CRITICAL **: 17:50:48.774: g_file_new_for_path: assertion 'path != NULL' failed
 
-(wrapper-2.0:1223): GLib-GObject-CRITICAL **: 14:17:45.343: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+(wrapper-2.0:1226): GLib-GIO-CRITICAL **: 17:50:48.774: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
 
-(wrapper-2.0:1223): Gtk-WARNING **: 14:17:45.343: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+(wrapper-2.0:1226): GLib-GObject-WARNING **: 17:50:48.774: invalid (NULL) pointer instance
 
-(wrapper-2.0:1223): Gtk-WARNING **: 14:17:45.609: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+(wrapper-2.0:1226): GLib-GObject-CRITICAL **: 17:50:48.774: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
 
-** (wrapper-2.0:1244): WARNING **: 14:17:45.661: No outputs have backlight property
+(wrapper-2.0:1226): Gtk-WARNING **: 17:50:48.774: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
 
-(wrapper-2.0:1249): Gtk-WARNING **: 14:17:45.695: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+** (wrapper-2.0:1232): WARNING **: 17:50:48.946: No outputs have backlight property
 
-(nm-applet:1139): Gtk-WARNING **: 14:17:45.763: Can't set a parent on widget which has a parent
+(wrapper-2.0:1233): Gtk-WARNING **: 17:50:49.015: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
 
-(wrapper-2.0:1209): Gtk-WARNING **: 14:17:45.841: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+(wrapper-2.0:1226): Gtk-WARNING **: 17:50:49.038: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
 
-(wrapper-2.0:1244): Gtk-WARNING **: 14:17:46.201: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+(nm-applet:1146): Gtk-WARNING **: 17:50:49.158: Can't set a parent on widget which has a parent
 
-(polkit-gnome-authentication-agent-1:1148): GLib-CRITICAL **: 14:17:46.701: g_variant_new_string: assertion 'string != NULL' failed
+(nm-applet:1146): Gdk-CRITICAL **: 17:50:49.341: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
 
-(polkit-gnome-authentication-agent-1:1148): polkit-gnome-1-WARNING **: 14:17:46.705: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-WARNING:root:can not import unity GI Namespace Dbusmenu not available
-Warning: 'sandbox' is not in the list of known options, but still passed to Electron/Chromium.
-bash: cannot set terminal process group (-1): Inappropriate ioctl for device
-bash: no job control in this shell
-(node:1450) Electron: Loading non-context-aware native module in renderer: '/usr/share/code/resources/app/node_modules.asar.unpacked/vscode-sqlite3/build/Release/sqlite.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
-(node:1450) Electron: Loading non-context-aware native module in renderer: '/usr/share/code/resources/app/node_modules.asar.unpacked/spdlog/build/Release/spdlog.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+(wrapper-2.0:1207): Gtk-WARNING **: 17:50:49.377: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1232): Gtk-WARNING **: 17:50:49.385: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
 /usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
   from gi.repository import AppIndicator3 as girAppIndicator
 ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
 ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
 ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
-(node:1507) Electron: Loading non-context-aware native module in renderer: '/usr/share/code/resources/app/node_modules.asar.unpacked/spdlog/build/Release/spdlog.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
-
-(mousepad:2053): Gtk-WARNING **: 14:23:18.525: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2053): Gtk-WARNING **: 14:23:18.525: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2053): Gtk-WARNING **: 14:23:18.525: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2053): Gtk-WARNING **: 14:23:18.525: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2053): Gtk-WARNING **: 14:23:18.526: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2155): Gtk-WARNING **: 14:24:35.238: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2155): Gtk-WARNING **: 14:24:35.238: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2155): Gtk-WARNING **: 14:24:35.238: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2155): Gtk-WARNING **: 14:24:35.238: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2155): Gtk-WARNING **: 14:24:35.238: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
-Warning: 'sandbox' is not in the list of known options, but still passed to Electron/Chromium.
-Warning: 'sandbox' is not in the list of known options, but still passed to Electron/Chromium.
-Gtk-Message: 14:26:14.010: GtkDialog mapped without a transient parent. This is discouraged.
-
-(mousepad:2657): Gtk-WARNING **: 14:32:03.705: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2657): Gtk-WARNING **: 14:32:03.706: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2657): Gtk-WARNING **: 14:32:03.706: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2657): Gtk-WARNING **: 14:32:03.706: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2657): Gtk-WARNING **: 14:32:03.706: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2699): Gtk-WARNING **: 14:33:07.682: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2699): Gtk-WARNING **: 14:33:07.683: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2699): Gtk-WARNING **: 14:33:07.683: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2699): Gtk-WARNING **: 14:33:07.683: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2699): Gtk-WARNING **: 14:33:07.683: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2707): Gtk-WARNING **: 14:33:16.547: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2707): Gtk-WARNING **: 14:33:16.548: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2707): Gtk-WARNING **: 14:33:16.548: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2707): Gtk-WARNING **: 14:33:16.548: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2707): Gtk-WARNING **: 14:33:16.548: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2714): Gtk-WARNING **: 14:33:29.529: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2714): Gtk-WARNING **: 14:33:29.530: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2714): Gtk-WARNING **: 14:33:29.530: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2714): Gtk-WARNING **: 14:33:29.530: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2714): Gtk-WARNING **: 14:33:29.530: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
-Gtk-Message: 14:34:01.942: GtkDialog mapped without a transient parent. This is discouraged.
-
-(mousepad:2790): Gtk-WARNING **: 14:36:16.622: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2790): Gtk-WARNING **: 14:36:16.622: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2790): Gtk-WARNING **: 14:36:16.622: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2790): Gtk-WARNING **: 14:36:16.622: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2790): Gtk-WARNING **: 14:36:16.622: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
-Gtk-Message: 14:40:30.258: GtkDialog mapped without a transient parent. This is discouraged.
-Gtk-Message: 14:41:01.471: GtkDialog mapped without a transient parent. This is discouraged.
-Gtk-Message: 14:41:40.471: GtkDialog mapped without a transient parent. This is discouraged.
-Gtk-Message: 14:43:26.003: GtkDialog mapped without a transient parent. This is discouraged.
-(node:3017) Electron: Loading non-context-aware native module in renderer: '/usr/share/code/resources/app/node_modules.asar.unpacked/vscode-sqlite3/build/Release/sqlite.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
-(node:3017) Electron: Loading non-context-aware native module in renderer: '/usr/share/code/resources/app/node_modules.asar.unpacked/spdlog/build/Release/spdlog.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
-Gtk-Message: 14:44:06.696: GtkDialog mapped without a transient parent. This is discouraged.
-(node:3017) Electron: Loading non-context-aware native module in renderer: '/usr/share/code/resources/app/node_modules.asar.unpacked/node-pty/build/Release/pty.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
-(node:3308) Electron: Loading non-context-aware native module in renderer: '/usr/share/code/resources/app/node_modules.asar.unpacked/vscode-sqlite3/build/Release/sqlite.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
-(node:3308) Electron: Loading non-context-aware native module in renderer: '/usr/share/code/resources/app/node_modules.asar.unpacked/spdlog/build/Release/spdlog.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
-Gtk-Message: 14:48:28.079: GtkDialog mapped without a transient parent. This is discouraged.
-
-(mousepad:3447): Gtk-WARNING **: 14:49:14.958: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:3447): Gtk-WARNING **: 14:49:14.958: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:3447): Gtk-WARNING **: 14:49:14.958: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:3447): Gtk-WARNING **: 14:49:14.958: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:3447): Gtk-WARNING **: 14:49:14.958: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:3494): Gtk-WARNING **: 14:50:09.279: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:3494): Gtk-WARNING **: 14:50:09.279: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:3494): Gtk-WARNING **: 14:50:09.280: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:3494): Gtk-WARNING **: 14:50:09.284: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:3494): Gtk-WARNING **: 14:50:09.284: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:3508): Gtk-WARNING **: 14:50:18.343: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:3508): Gtk-WARNING **: 14:50:18.343: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:3508): Gtk-WARNING **: 14:50:18.343: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:3508): Gtk-WARNING **: 14:50:18.343: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:3508): Gtk-WARNING **: 14:50:18.343: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:3543): Gtk-WARNING **: 14:51:13.294: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:3543): Gtk-WARNING **: 14:51:13.294: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:3543): Gtk-WARNING **: 14:51:13.294: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:3543): Gtk-WARNING **: 14:51:13.294: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:3543): Gtk-WARNING **: 14:51:13.294: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(xfwm4:1108): xfwm4-WARNING **: 14:58:42.502: XSync timeout for client "● index.html - jake - Visual Studio Code" (0x3e0013b)
-Gtk-Message: 15:12:55.560: GtkDialog mapped without a transient parent. This is discouraged.
-Gtk-Message: 15:14:04.573: GtkDialog mapped without a transient parent. This is discouraged.
-
-(mousepad:4474): Gtk-WARNING **: 15:14:13.998: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:4474): Gtk-WARNING **: 15:14:13.998: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:4474): Gtk-WARNING **: 15:14:13.998: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:4474): Gtk-WARNING **: 15:14:13.998: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:4474): Gtk-WARNING **: 15:14:13.998: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
-double free or corruption (fasttop)
-Gtk-Message: 15:30:06.642: GtkDialog mapped without a transient parent. This is discouraged.
-Gtk-Message: 15:31:32.833: GtkDialog mapped without a transient parent. This is discouraged.
-Gtk-Message: 15:41:29.136: GtkDialog mapped without a transient parent. This is discouraged.
-Gtk-Message: 15:41:42.880: GtkDialog mapped without a transient parent. This is discouraged.
-Gtk-Message: 15:43:24.127: GtkDialog mapped without a transient parent. This is discouraged.
-Gtk-Message: 15:44:09.673: GtkDialog mapped without a transient parent. This is discouraged.
-Gtk-Message: 15:44:14.526: GtkDialog mapped without a transient parent. This is discouraged.
-Gtk-Message: 15:44:20.825: GtkDialog mapped without a transient parent. This is discouraged.
-Gtk-Message: 15:44:43.813: GtkDialog mapped without a transient parent. This is discouraged.
-Gtk-Message: 15:44:57.907: GtkDialog mapped without a transient parent. This is discouraged.
